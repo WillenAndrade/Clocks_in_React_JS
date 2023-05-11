@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;600;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-shadow: border-box;
+    font-family: 'Rajdhani', sans-serif;
+}
+
+.app {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: black;
+}
+
+.watch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    background: white;
+    border-radius: 50%;
+    border: 2px solid red;
+}
+
+.app h1{
+    color: red;
+}
+
+.app h2 {
+    margin: 20px;
+    color: darkblue;
+}
+
+.buttons {
+    margin-top: 20px;
+    display: flex;
+}
+
+ button {
+    max-width: 110px;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+    padding: 0px 10px;
+    cursor: pointer;
+    font-size: 20px;
+    transition: 0.5s ease;
+}
+
+.play {
+    border-radius: 15px;
+    color: black;
+    font-weight: 600;
+}
+
+.play:hover {
+    border: 2px solid green;
+    color: green;
+}
+
+.pause {
+    border-radius: 15px;
+    color: black;
+    font-weight: 600;
+    padding-left: 0;
+}
+
+.pause:hover {
+    border: 2px solid yellow;
+}
+
+.stop {
+    border-radius: 15px;
+    color: red;
+    font-weight: 600;
+}
+
+.stop:hover {
+    border: 2px solid red;
+}
+
+.stop span {
+    margin-left: 5px;
+}
+
+.play {
+    border-radius: 15px;
+    color: black;
+    font-weight: 600;
+}
+
+.pont{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: red;;
+}
+
+
+
