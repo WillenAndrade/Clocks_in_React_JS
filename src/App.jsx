@@ -11,7 +11,7 @@ function App() {
   const [stop, setStop] = useState(false)
   const [pause, setPause] = useState(false)
 
-  const intervalRef = useRef(null)
+ // const intervalRef = useRef(null)
 
   if(seconds >= 60) {
     setSeconds((prevState) => prevState = 0)
