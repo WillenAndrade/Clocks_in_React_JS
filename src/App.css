@@ -20,8 +20,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 400px;
-    height: 400px;
+    width: 350px;
+    height: 350px;
     background: white;
     border-radius: 50%;
     border: 2px solid red;
@@ -34,6 +34,9 @@
 .app h2 {
     margin: 20px;
     color: darkblue;
+    font-size: 36px;
+    padding: 5px 10px;
+    
 }
 
 .buttons {

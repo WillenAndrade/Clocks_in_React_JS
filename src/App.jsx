@@ -22,7 +22,7 @@ function App() {
     setPause(!pause)
     intervalRef.current = setInterval(()=>{
       setSeconds((prevState) => prevState + 1)
-  },1000)
+  },100)
    
   }
 
@@ -44,7 +44,7 @@ function App() {
     <div className='app'>
       <div className="watch">
       <h1>StopWatch in React</h1>
-      <h2>StopWatch: {minutes.lenght == 0 ? '0' : minutes}:{seconds.lenght == 0 ? '0' : seconds}</h2>
+      <h2>{minutes.lenght == 0 ? '0' : minutes}:{seconds.lenght == 0 ? '0' : seconds}</h2>
       <div className="buttons">
         {!pause ? <button className='play' onClick={handlePlay}><BsPlayFill size={20}/><span>PLAY</span></button> : <button className='pause'onClick={handlePause}><BiPause size={25}/><span>PAUSE</span></button>}
         <button className='stop' onClick={handleStop}><BsCircleFill size={12}/><span>STOP</span></button>
