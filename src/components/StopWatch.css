@@ -1,0 +1,22 @@
+.stopwatch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 300px;
+    height: 250px;
+    background: white;
+    border-radius: 50%;
+}
+
+ h1{
+    color: red;
+}
+
+ h2 {
+    margin: 20px;
+    color: darkblue;
+    font-size: 36px;
+    padding: 5px 10px; 
+}
+

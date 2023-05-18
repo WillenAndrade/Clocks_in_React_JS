@@ -27,18 +27,6 @@
     border: 2px solid red;
 }
 
-.app h1{
-    color: red;
-}
-
-.app h2 {
-    margin: 20px;
-    color: darkblue;
-    font-size: 36px;
-    padding: 5px 10px;
-    
-}
-
 .buttons {
     margin-top: 20px;
     display: flex;
@@ -103,6 +91,4 @@
     border-radius: 50%;
     background: red;;
 }
-
-
 
