@@ -1,3 +1,5 @@
+
+
 .timer {
     display: flex;
     flex-direction: column;
@@ -19,11 +21,17 @@
 }
 
 input {
-    width: 50px;
+    width: 30px;
     height: 30px;
     margin: 5px;
+    border: none;
+    outline: none;
+    font-size: 30px;
 } 
 
-#start {
-    margin: 10px auto;
+.play {
+    margin: auto;
 }
+
+
+

@@ -22,7 +22,7 @@ const StopWatch = () => {
     setPause(!pause)
     intervalRef.current = setInterval(()=>{
       setSeconds((prevState) => prevState + 1)
-  },100)
+  },1000)
    
   }
 
