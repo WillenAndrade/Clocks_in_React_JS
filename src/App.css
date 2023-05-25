@@ -101,3 +101,32 @@ input[type=number] {
    appearance: textfield;
 }
 
+.clock-container {
+    width: 160px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color: red;
+    margin-top: 50px;
+    border: 3px solid red;
+    border-radius: 30px;
+}
+
+.clock-container > div {
+    cursor: pointer;
+    transform: translateY(10px);
+    transition: 0.5s ease;
+    padding-bottom: 10px;
+}
+
+.clock-container > div:hover {
+    transform: translateY(0px);
+}
+
+.button-back{
+    margin-top: 10px;
+    cursor: pointer;
+}
+

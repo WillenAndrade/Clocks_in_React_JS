@@ -3,6 +3,7 @@ import './Timer.css'
 import {BsPlayFill} from 'react-icons/bs'
 import {BiPause} from 'react-icons/bi'
 import {BsCircleFill} from 'react-icons/bs'
+import {RiArrowGoBackLine} from 'react-icons/ri'
 import TimerClock from './TimerClock'
 
 const Timer = () => {
@@ -86,6 +87,7 @@ const Timer = () => {
             {pause ? <button className='play' onClick={handlePlay}><BsPlayFill size={20}/><span>PLAY</span></button> : <button className='pause' onClick={handlePause}><BiPause size={25}/><span>PAUSE</span></button>}
             <button className='stop' onClick={handleStop} ><BsCircleFill size={12}/><span>STOP</span></button>
             </div>
+            <div className="button-back"><RiArrowGoBackLine size={30}/></div>
         </div>
     )
 }
