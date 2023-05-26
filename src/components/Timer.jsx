@@ -1,4 +1,5 @@
-import { useState, useRef, useEffect } from 'react'
+import { useState, useRef} from 'react'
+import {Link} from 'react-router-dom'
 import './Timer.css'
 import {BsPlayFill} from 'react-icons/bs'
 import {BiPause} from 'react-icons/bi'
@@ -75,7 +76,7 @@ const Timer = () => {
 
     return(
         <div className='timer'>
-            <h1>Timer in React</h1>
+            <h1>Timer</h1>
             {!isOn ? <div className="set-clock">
                 <div className="input-clock">
                     <input type="number" placeholder='00' min='1' max="60" onChange={(e)=>setMinutes(e.target.value)}/>:
@@ -87,7 +88,7 @@ const Timer = () => {
             {pause ? <button className='play' onClick={handlePlay}><BsPlayFill size={20}/><span>PLAY</span></button> : <button className='pause' onClick={handlePause}><BiPause size={25}/><span>PAUSE</span></button>}
             <button className='stop' onClick={handleStop} ><BsCircleFill size={12}/><span>STOP</span></button>
             </div>
-            <div className="button-back"><RiArrowGoBackLine size={30}/></div>
+            <div className="button-back" ><Link to="/"><RiArrowGoBackLine size={30}/></Link></div>
         </div>
     )
 }
